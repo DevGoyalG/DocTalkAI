@@ -1,9 +1,11 @@
 python-dotenv
+pypdf
 langchain
 langchain-groq
-deepagents
-pypdf
 langchain-text-splitters
+langchain-huggingface
+sentence-transformers
+deepagents
 numpy
 requests
 streamlit
