@@ -1,0 +1,9 @@
+python-dotenv
+langchain
+langchain-groq
+deepagents
+pypdf
+langchain-text-splitters
+numpy
+requests
+streamlit
