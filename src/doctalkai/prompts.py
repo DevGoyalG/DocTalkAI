@@ -4,7 +4,7 @@
 
 RAG_WORKFLOW_INSTRUCTIONS = """# Documentation Q&A workflow
 
-Answer questions about LangChain using the indexed documentation corpus.
+Answer questions using the indexed documentation corpus.
 
 1. **Plan**: Use write_todos to break complex questions into focused search queries.
 2. **Search**: Call search_documentation with a query. The tool saves matching chunks under /retrieved/ and returns file paths.
