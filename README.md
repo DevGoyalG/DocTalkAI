@@ -16,6 +16,8 @@ An AI-powered document assistant that helps you explore your own knowledge. Uplo
   <img src="https://img.shields.io/badge/Embeddings-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
 </div>
 
+<img width="1920" height="877" alt="Screenshot 2026-11-04 233149" src="https://github.com/user-attachments/assets/d579b809-0a92-4331-9c35-1e61f45e463a" />
+
 ---
 
 ## 🌍 Overview
