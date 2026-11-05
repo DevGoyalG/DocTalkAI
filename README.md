@@ -6,7 +6,7 @@
 
 An AI-powered document assistant that helps you explore your own knowledge. Upload PDF, TXT, or Markdown files, ask questions in natural language, and get context-aware answers grounded in your documents.
 
-  <a href="https://your-live-demo-url/">
+  <a href="https://doctalkai.replit.app/">
     <img src="https://img.shields.io/badge/Live%20Demo-Visit%20DocTalk%20AI-16A34A?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo" />
   </a>
   <img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -36,7 +36,7 @@ The project uses a Retrieval-Augmented Generation (RAG) workflow with semantic s
 
 ## 🖥️ Live Demo
 
-**Try DocTalk AI:** https://your-live-demo-url/
+**Try DocTalk AI:** https://doctalkai.replit.app/
 
 > Note: The live demo depends on the availability of the hosted service and external APIs. Upload your documents and process them before asking questions. Responses may vary depending on document content, retrieval accuracy, and LLM availability.
 
@@ -116,31 +116,48 @@ DocTalkAI/
 │
 ├── README.md                    # Project documentation
 └── LICENSE                      # Project license (if added)
+```
+
+*The tree illustrates the main application components. Exact asset filenames and subdirectories may vary.*
 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/DocTalkAI.git
+git clone https://github.com/DevGoyalG/DocTalkAI.git
 cd DocTalkAI
 ```
 
-### 2. Install dependencies
+### 2. Create a Virtual Environment
 
-This project uses **uv** for environment and dependency management.
+**Windows — Command Prompt**
 
 ```bash
-uv sync
+python -m venv venv
+venv\Scripts\activate
 ```
 
-If you are setting up from `requirements.txt` instead:
+**Windows — PowerShell**
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+**macOS / Linux**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install dependencies
 
 ```bash
 uv pip install -r requirements.txt
 ```
 
-### 3. Configure environment variables
+### 4. Configure environment variables
 
 Create a `.env` file in the project root and add your Groq API key:
 
@@ -150,7 +167,7 @@ GROQ_API_KEY=your_groq_api_key
 
 Get an API key from [Groq Console](https://console.groq.com/).
 
-### 4. Run the application
+### 5. Run the application
 
 ```bash
 uv run streamlit run src/doctalkai/main.py
